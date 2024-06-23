@@ -4,8 +4,6 @@
 function encrypt() {
     let cripto = [];
     let rolo = [];
-
-
     const texto = document.getElementById('texto').value;
 
 
