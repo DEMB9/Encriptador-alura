@@ -1,0 +1,90 @@
+:root {
+    --color-primaria: #F3F5FC;
+    --color-secundaria: #072B61;
+    --color-terciaria: #2A4494;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-primaria);
+    color: var(--color-secundaria);
+}
+
+.header{
+    display: flex;                /* Activar Flexbox */
+    justify-content: center;      /* Centrar horizontalmente */
+    align-items: center;          /* Centrar verticalmente */
+
+}
+
+.presentacion{
+    display: flex;
+    gap: 300px;
+    column-gap: 200px;
+    justify-content: center;      /* Centrar horizontalmente */
+    align-items: center;          /* Centrar verticalmente */
+}
+
+.botones {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente los botones */
+    margin-top: 100px; /* Aumentamos el margen superior */
+    margin-bottom: 50px; /* Añadimos margen inferior */
+    gap: 55px;
+}
+
+.presentacion_boton {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-secundaria);
+    background-color: var(--color-terciaria);
+    border: 3px solid var(--color-terciaria);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Añadimos margen superior para separar los botones */
+}
+
+.presentacion_boton:hover {
+    background-color: var(--color-hover);
+}
+
+
+
+.tamano_input {
+    width: 100%;
+    max-width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: var(--color-primaria); /* Fondo del input */
+    color: var(--color-secundaria); /* Color del texto */
+    border: none; /* Eliminamos el borde */
+    outline: none; /* Quitamos el contorno al estar enfocado */
+    opacity: 0.9; /* Ajustamos la opacidad para que sea casi invisible */
+    
+
+}
+
+
+
+.texto-estatico {
+    background-color: #f0f0f0; /* Color de fondo opcional para visualización */
+    padding: 20px; /* Espaciado interno opcional */
+    border: 1px solid #ccc; /* Borde opcional para visualización */
+    border-radius: 5px; /* Borde redondeado opcional */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    font-size: 1.2rem; /* Tamaño de fuente opcional */
+    color: #333; /* Color del texto */
+    width: 90%; /* Ancho de la caja */
+    max-width: 500px; /* Ancho máximo para limitar el crecimiento en pantallas grandes */
+    margin: 100px auto; /* Centrar horizontalmente con margen superior e inferior */
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-co">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Bienvenido al servicio de encriptado</h1>
+        <img src="" alt="">
+    </header>
+    <main class="presentacion">
+        <section>
+            
+
+            <textarea class="tamano_input" id="texto" name="texto" placeholder="Escriba aquí..."></textarea>
+
+            <div class="botones">
+                <button class="presentacion_boton" id="encriptar" onclick="encrypt()">Encriptar</button>
+                <script src="js/script.js"></script>
+                <button class="presentacion_boton" onclick="decrypt()">Desencriptar</button>
+                <script src="js/script.js"></script>
+            </div>
+            
+        </section>
+        <section>
+            
+            <div class="texto-estatico" id="textoEstatico">
+                <p>Aquí va tu texto estático que el usuario no puede modificar.</p>
+                <script src="js/script.js"></script>
+            </div>
+            <div class="botones">
+                <button class="presentacion_boton" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer c>
+        <p>Desarrollado por <strong>David M</strong> </p>
+    </footer>
+</body>
+</html>
