@@ -15,7 +15,7 @@ body{
 }
 
 .header{
-    display: flex;                /* Activar Flexbox */
+    display: flex;                /* Activar Flexbox toca recordarlo */
     justify-content: center;      /* Centrar horizontalmente */
     align-items: center;          /* Centrar verticalmente */
 
@@ -35,6 +35,7 @@ body{
     margin-top: 100px; /* Aumentamos el margen superior */
     margin-bottom: 50px; /* Añadimos margen inferior */
     gap: 55px;
+    color: bisque;
 }
 
 .presentacion_boton {
