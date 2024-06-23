@@ -1,18 +1,16 @@
 
 
-// Función que se ejecutará cuando se haga clic en el botón "Encriptar"
 function encrypt() {
     let cripto = [];
     let rolo = [];
     const texto = document.getElementById('texto').value;
 
 
-// Convertir cada carácter de 'texto' en un array 'cripto' (aunque 'texto' está vacío en este ejemplo)
+
 for (let i = 0; i < texto.length; i++) {
     cripto.push(texto[i]);
 }
 
-// Recorrer el array 'cripto' y aplicar las transformaciones
 for (let i = 0; i < cripto.length; i++) {
     switch (cripto[i]) {
         case "e":
