@@ -2,7 +2,7 @@
     --color-primaria: #F3F5FC;
     --color-secundaria: #072B61;
     --color-terciaria: #2A4494;
-    --color-hover: #272727;
+    --color-hover: #965858;
 
     --fuente-krona: 'Krona One', sans-serif;
     --fuente-montserrat: 'Montserrat', sans-serif;
@@ -32,7 +32,7 @@ body{
 .botones {
     display: flex;
     justify-content: center; /* Centrar horizontalmente los botones */
-    margin-top: 100px; /* Aumentamos el margen superior */
+    margin-top: 100px; /* Aumentamos el margen superior(Importante) */
     margin-bottom: 50px; /* Añadimos margen inferior */
     gap: 55px;
     color: bisque;
